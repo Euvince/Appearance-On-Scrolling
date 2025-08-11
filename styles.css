@@ -1,0 +1,41 @@
+.container {
+    max-width: 500px;
+}
+.card {
+    box-shadow: 4px 4px 10px grey;
+    border-radius: 15px;
+}
+
+/* .card .two-cards:nth-child(2n) {
+    display: flex;
+} */
+
+/* .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+} */
+
+[class*="reveal-"] {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.reveal-1 {
+    transition: 1s;
+}
+
+.reveal-2 {
+    transition: 2s;
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    /* transition: 3s; */
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+}

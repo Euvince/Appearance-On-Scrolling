@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP : Apparition au défilement</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./app.js" type="module" defer></script>
+</head>
+<body class="p-2">
+
+    <section class="container mx-auto">
+        <div class="cards">
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl">Liste des articles</h2>
+            <div class="two-cards flex mb-5">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/ChambresD'hôtesAuCoursDeL'eau.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Chambres d'hôtes au coeur de l'eau</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/AubergeLaCanebière.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Auberge La Canebière</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl">Liste des articles</h2>
+            <div class="two-cards flex mb-5">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/AubergePanier.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Auberge le pannier</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelDuPort.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel du port</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl reveal-1">Liste des articles</h2>
+            <div class="two-cards flex mb-5 reveal reveal-2">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelLesMouettes.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel les mouettes</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelMer.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel de la mer</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl reveal-1">Liste des articles</h2>
+            <div class="two-cards flex mb-5 reveal reveal-2">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/ChambresD'hôtesAuCoursDeL'eau.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Chambres d'hôtes au coeur de l'eau</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelSoleilMatin.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel le soleil du matin</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl reveal-1">Liste des articles</h2>
+            <div class="two-cards flex mb-5 reveal reveal-2">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/AubergePanier.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Auberge le pannier</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/NotreDame.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Notre-dame-de-la-garde</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl reveal-1">Liste des articles</h2>
+            <div class="two-cards flex mb-5 reveal reveal-2">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelSoleilMatin.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel le soleil du matin</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/HôtelLesMouettes.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Hôtel les mouettes</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="font-bold mb-5 mt-3 mx-3 text-2xl reveal-1">Liste des articles</h2>
+            <div class="two-cards flex mb-5 reveal reveal-2">
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/ParcNationalCalanques.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Parc nationnal des Calanques</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-3 w-[40%]">
+                    <img class="w-[100%] h-[180px] rounded-tr-[15px] rounded-tl-[15px] p-[3px]" src="./img/VieuxPort.png" alt="">
+                    <div class="card-infos px-3 pt-2 pb-3">
+                        <div class="font-bold">Vieux Port</div>
+                        <div class="text-sm opacity-50 mt-[5px]">Nuit à 500$</div>
+                        <div class="flex mt-[5px]">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                            <img src="./img/blue-star.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
